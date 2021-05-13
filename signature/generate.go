@@ -6,10 +6,11 @@ import (
 	"crypto/sha256"
 	"encoding/base64"
 	"fmt"
-	"github.com/kirintang/rambo-core/parse"
-	"github.com/pkg/errors"
 	"net/url"
 	"strings"
+
+	"github.com/SpaceX-io/rambo-core/parse"
+	"github.com/pkg/errors"
 )
 
 func (s *signature) Generate(path, method string, params url.Values) (authorization, date string, err error) {

@@ -6,11 +6,12 @@ import (
 	"crypto/sha256"
 	"encoding/base64"
 	"fmt"
-	"github.com/kirintang/rambo-core/parse"
-	"github.com/pkg/errors"
 	"net/url"
 	"strings"
 	"time"
+
+	"github.com/SpaceX-io/rambo-core/parse"
+	"github.com/pkg/errors"
 )
 
 func (s *signature) Verify(authorization, date, path, method string, params url.Values) (ok bool, err error) {

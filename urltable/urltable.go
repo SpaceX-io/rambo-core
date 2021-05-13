@@ -1,9 +1,10 @@
 package urltable
 
 import (
-	"github.com/kirintang/rambo-core/errors"
 	"net/http"
 	"strings"
+
+	"github.com/SpaceX-io/rambo-core/errors"
 )
 
 const (

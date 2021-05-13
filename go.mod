@@ -1,4 +1,4 @@
-module github.com/kirintang/rambo-core
+module github.com/SpaceX-io/rambo-core
 
 go 1.16
 

@@ -10,7 +10,7 @@ const (
 	secret   = "242BB39A78E1251A"
 	ttl      = 24 * time.Hour
 	userId   = 111111111
-	userName = "kirintang"
+	userName = "SpaceX-io"
 )
 
 func TestJwtSign(t *testing.T) {
@@ -36,7 +36,7 @@ func TestUrlSign(t *testing.T) {
 	urlPath := "/user/add"
 	method := "post"
 	params := url.Values{}
-	params.Add("user_name", "kirintang")
+	params.Add("user_name", "SpaceX-io")
 	params.Add("age", "25")
 	params.Add("email", "xxxx@163.com")
 

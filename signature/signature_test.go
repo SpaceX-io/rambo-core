@@ -17,7 +17,7 @@ func TestGenerate(t *testing.T) {
 	method := "POST"
 
 	params := url.Values{}
-	params.Add("user_name", "kirintang")
+	params.Add("user_name", "SpaceX-io")
 	params.Add("email", "xxxx@163.com")
 	params.Add("age", "25")
 
@@ -34,7 +34,7 @@ func TestVerify(t *testing.T) {
 	path := "/user/add"
 	method := "post"
 	params := url.Values{}
-	params.Add("user_name", "kirintang")
+	params.Add("user_name", "SpaceX-io")
 	params.Add("email", "xxxx@163.com")
 	params.Add("age", "25")
 
